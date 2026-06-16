@@ -1,0 +1,27 @@
+# Środowisko wirtualne
+.venv/
+venv/
+env/
+
+# Sekrety
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System
+.DS_Store
+Thumbs.db
