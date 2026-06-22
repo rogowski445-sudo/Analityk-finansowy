@@ -1,8 +1,8 @@
-# Financial Research Agent
+# Financial Research Agent - Lucjuszek
 
 Agent do automatycznej analizy finansowej spółek giełdowych. Pobiera dane rynkowe i fundamentalne, a następnie generuje raport inwestycyjny przy pomocy modelu Gemini 2.5 Flash.
 
-Projekt stworzony przeze mnie przy pomocy Claude Code
+Projekt stworzony przy pomocy Claude Code (Anthropic)
 
 ## Architektura
 
