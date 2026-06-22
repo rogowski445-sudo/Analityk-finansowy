@@ -2,7 +2,7 @@
 
 Agent do automatycznej analizy finansowej spółek giełdowych. Pobiera dane rynkowe i fundamentalne, a następnie generuje raport inwestycyjny przy pomocy modelu Gemini 2.5 Flash.
 
-Projekt stworzony wspólnie przez człowieka i Claude (Anthropic).
+Projekt stworzony przeze mnie przy pomocy Claude Code
 
 ## Architektura
 
@@ -66,3 +66,4 @@ Raport pojawi się w folderze projektu jako plik `.txt`.
 - **USA** — np. `AAPL`, `MSFT`, `NVDA`
 - **GPW (Polska)** — np. `CDR.WA`, `PKN.WA`, `LPP.WA`
 - Każda spółka dostępna w Yahoo Finance
+

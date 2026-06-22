@@ -37,5 +37,5 @@ def process_fundamentals(raw: dict) -> dict:
         "net_income": fmt_pomocnicza(raw.get("netIncomeToCommon")),
         "total_debt": fmt_pomocnicza(raw.get("totalDebt")),
         "roe": round(raw.get("returnOnEquity") * 100, 2) if raw.get("returnOnEquity") else None,
-        "dividend_yield": round(raw.get("dividendYield") * 100, 2) if raw.get("dividendYield") else None,
+        "dividend_yield": round(raw.get("dividendYield"), 2) if raw.get("dividendYield") else None,
     }

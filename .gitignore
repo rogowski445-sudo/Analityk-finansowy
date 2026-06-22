@@ -6,6 +6,11 @@ env/
 # Sekrety
 .env
 
+# Wygenerowane raporty
+reports/
+raport_*.txt
+raport_*.pdf
+
 # Python
 __pycache__/
 *.py[cod]
@@ -15,6 +20,7 @@ __pycache__/
 *.egg-info/
 dist/
 build/
+.pytest_cache/
 
 # IDE
 .vscode/
